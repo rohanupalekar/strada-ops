@@ -63,8 +63,31 @@
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.129 0.042 264.695);
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  /* Serylda — Strada tokens */
+  --background: oklch(0.145 0.005 270);   /* #0a0a0d */
+  --surface: oklch(0.18 0.005 270);       /* #14141a */
+  --surface-2: oklch(0.21 0.006 270);
+  --border: oklch(0.245 0.008 270);       /* #1f1f28 */
+
+  --foreground: oklch(0.93 0.003 270);    /* #e8e8ec */
+  --muted-foreground: oklch(0.66 0.008 270); /* #9a9aa3 */
+  --tertiary-foreground: oklch(0.45 0.008 270); /* #5a5a63 */
+
+  --csarge: oklch(0.42 0.06 130);         /* #3a4a2a olive */
+  --csarge-active: oklch(0.55 0.08 130);  /* #5a6e42 */
+  --csarge-foreground: oklch(0.95 0.01 95);
+
+  --alarm: oklch(0.55 0.21 25);           /* #c1272d */
+  --triage: oklch(0.74 0.13 80);          /* amber */
+  --postwin: oklch(0.55 0.025 240);       /* steel */
+  --drift: oklch(0.42 0.008 270);         /* slate */
+
+  --donna: oklch(0.78 0.13 85);           /* #d4af37 gold */
+  --donna-secondary: oklch(0.5 0.18 25);  /* #a83232 */
+  --donna-soft: oklch(0.2 0.014 60);      /* #1f1a14 */
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.129 0.042 264.695);
   --popover: oklch(1 0 0);
